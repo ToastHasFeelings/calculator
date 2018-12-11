@@ -1,5 +1,5 @@
 {
-  "name": "Shreks Calculator",
+  "name": "Shrek's Calculator",
   "short_name": "ShrekCalc",
   "icons": [
     {
@@ -37,5 +37,6 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "index.html",
-  "orientation": "portrait", "theme_color": "#ffffff"
+  "orientation": "portrait",
+  "theme_color": "#ffffff"
 }

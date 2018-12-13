@@ -19,10 +19,10 @@ body {
 	height: 20vh;
 	width: 100%;
 	color: black;
-	background-color: #bccd95;
+	background-color: #FFFFFF;
 	font-size: 8vw;
 	text-align: right;
-	border: 8px solid #bfc4ce;
+	border: 8px solid #403F3E;
 	padding: 0px;
 }
 
@@ -49,19 +49,25 @@ body {
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: #403F3E;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: #403F3E;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
 .button.number {
+	color: #7F7D7D;
+	background-color: #E5E1E0;
+	border-bottom: #403F3E 8px solid;
+	border-top: 4px #6f6f6f solid;
+}
+.button.equal {
 	color: white;
-	background-color: #7091ab;
+	background-color: #EB1A0C;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
@@ -76,6 +82,10 @@ body {
 	border-bottom: #303030 4px solid;
 }
 .number:active {
+	border-top: black 8px solid;
+	border-bottom: 4px #6f6f6f solid;
+}
+.equal:active {
 	border-top: black 8px solid;
 	border-bottom: 4px #6f6f6f solid;
 }

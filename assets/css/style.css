@@ -18,7 +18,6 @@ body {
 .display {
 	height: 20vh;
 	width: 100%;
-	height: 193px;
 	color: black;
 	background-color: #FFFFFF;
 	font-size: 10vw;
@@ -39,7 +38,7 @@ body {
 	width: 25%;
 	outline: none;
 	height: auto;
-	font-size: 8vw;
+	font-size: 6vw;
 }
 .button {
 	height: 30px;

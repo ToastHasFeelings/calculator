@@ -11,6 +11,17 @@ function hasLocalStorage() {
 	}
 }
 
+function factorial(n) {
+	// write this as a recursive function
+	if (n <= 1) {
+		return 1;
+	} else if (n == 2) {
+		return 2;
+	} else {
+		return n * factorial(n - 1);
+	}
+}
+
 var Calculator = {
 	display: function(val) {
 		// change the display
@@ -29,16 +40,14 @@ var Calculator = {
 			d("Error");
 		}
 	},
-	factorial: function(n) {
-		// write this as a recursive function
-		if (n <= 1) {
-			return 1;
-		} else if (n == 2) {
-			return 2;
-		} else {
-			return n * Calculator.factorial(n - 1);
-		}
-	},
+	fac: function() {
+		// get input
+		var n = CalculatorData // input
+		var o = factorial(n)// factorial(n);
+		// display it on the screen
+
+	}
+	,
 	saveMem: function() {
 		var mem = document.getElementById("d").value;
 

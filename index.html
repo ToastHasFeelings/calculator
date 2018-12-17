@@ -48,9 +48,14 @@
 		<button class="button number" onclick="Calculator.type('3')">3</button>
 		<button class="button operator" onclick="Calculator.type('+')">+</button>
 		<button class="button number" onclick="Calculator.type('0')">0</button>
+		<button class="button number" onclick="Calculator.type(Math.PI)">π</button>
 		<button class="button number" onclick="Calculator.type('.')">.</button>
-		<button class="button function" onclick="Calculator.display('')">C</button>
-		<button class="button equal" onclick="Calculator.e()">=</button>
+		<button class="button function" onclick="Calculator.e()">=</button>
+		<button class="button function" onclick="Calculator.factorial()">!n</button>
+		<button class="button function" onclick="Calculator.type('(')">(</button>
+		<button class="button function" onclick="Calculator.type(')')">)</button>
+		<button class="button clear" onclick="Calculator.display('')">C</button>
+
 	</div>
 	<script>
 if ('serviceWorker' in navigator) {

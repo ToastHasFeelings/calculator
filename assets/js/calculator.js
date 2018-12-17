@@ -29,6 +29,16 @@ var Calculator = {
 			d("Error");
 		}
 	},
+	factorial: function(n) {
+		// write this as a recursive function
+		if (n <= 1) {
+			return 1;
+		} else if (n == 2) {
+			return 2;
+		} else {
+			return n * Calculator.factorial(n - 1);
+		}
+	},
 	saveMem: function() {
 		var mem = document.getElementById("d").value;
 

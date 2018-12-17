@@ -18,9 +18,10 @@ body {
 .display {
 	height: 20vh;
 	width: 100%;
+	height: 193px;
 	color: black;
 	background-color: #FFFFFF;
-	font-size: 8vw;
+	font-size: 10vw;
 	text-align: right;
 	border: 8px solid #403F3E;
 	padding: 0px;
@@ -65,7 +66,7 @@ body {
 	border-bottom: #403F3E 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
-.button.equal {
+.button.clear {
 	color: white;
 	background-color: #EB1A0C;
 	border-bottom: black 8px solid;
@@ -76,16 +77,20 @@ body {
 .function:active {
 	border-top: black 8px solid;
 	border-bottom: 4px #6f6f6f solid;
+	background-color: #2E2E2E
 }
 .operator:active {
 	border-top: black 8px solid;
 	border-bottom: #303030 4px solid;
+	background-color: #2E2E2E
 }
 .number:active {
 	border-top: black 8px solid;
 	border-bottom: 4px #6f6f6f solid;
+	background-color: #D4D4CB
 }
-.equal:active {
+.clear:active {
 	border-top: black 8px solid;
 	border-bottom: 4px #6f6f6f solid;
+	background-color: #D1170B
 }
